@@ -1,0 +1,14 @@
+# Ensure all text files use LF
+* text=auto
+
+# Force specific file types to use LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Force binary files to be untouched
+*.png binary
+*.jpg binary
